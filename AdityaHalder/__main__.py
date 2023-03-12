@@ -60,12 +60,12 @@ async def initiate_bot():
             status="[bold blue]Importation Completed!",
         )
     console.print(
-        "[bold green] 🥀 Genius Userbot Started ✨\n"
+        "[bold green] 🥀 𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ✨\n"
     )
     try:
         await robot.send_message(
             LOG_GROUP_ID,
-            "<b> 🥀 Genius UserBot is Here ✨</b>",
+            "<b> 🥀 𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝚂 𝙷𝙴𝚁𝙴 ✨</b>",
         )
     except Exception as e:
         print(
@@ -84,7 +84,7 @@ async def initiate_bot():
         try:
             await client.send_message(
                 LOG_GROUP_ID,
-                "<b>🥀 Genius UserBot is Active ✨</b>",
+                "<b>🥀 𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝚂 𝙰𝙲𝚃𝙸𝚅𝙴 ✨</b>",
             )
         except Exception as e:
             print(
@@ -99,7 +99,7 @@ async def initiate_bot():
             pass
         console.print(f"├[red] UserBot Started as {ASSNAME}")
         console.print(f"├[green] ID :- {ASSID}")
-        console.print(f"└[red] ✅ Genius UserBot Boot Complete 💯 ...")
+        console.print(f"└[red] ✅ Dhiman UserBot Boot Complete 💯 ...")
         await idle()
         console.print(f"\n[red] Userbot Stopped")
 
@@ -112,25 +112,23 @@ I Aᴍ Gᴇɴɪᴜs, Aɴ Aᴅᴠᴀɴᴄᴇᴅ UsᴇʀBᴏᴛ Wɪᴛʜ Sᴏᴍ�
 @robot.on_message(command(["start"]) & filters.private)
 async def start(_, message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/027283ee9defebc3298b8.png",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 Hᴇʟʟᴏ, I Aᴍ Gᴇɴɪᴜs » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
-Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
+        photo=f"https://telegra.ph/file/0fc760cb0777ea04b7dfe.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━━
+🦋 𝙷𝙴𝙻𝙻𝙾, 𝙸 𝙰𝙼 𝙳𝙷𝙸𝙼𝙰𝙽 ~ 𝙰𝙽 𝙰𝙳𝚅𝙰𝙽𝙲𝙴 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝚄𝚂𝙴𝚁 𝙱𝙾𝚃.
 
 ┏━━━━━━━━━━━━━━━━━━━┓
-┣★ Oᴡɴᴇʀ'xD› : [Aᴅɪᴛʏᴀ Hᴀʟᴅᴇʀ](https://t.me/adityahalder)
-┣★ Uᴘᴅᴀᴛᴇs ›› : [Aᴅɪᴛʏᴀ Sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ Sᴜᴘᴘᴏʀᴛ » : [Aᴅɪᴛʏᴀ Dɪsᴄᴜs](https://t.me/adityadiscus)
+┣★ 𝙾𝚆𝙽𝙴𝚁'𝚡𝙳› : [𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 𝙳𝙷𝙸𝙼𝙰𝙽](https://t.me/i_dxlvir)
+┣★ 𝙵𝙴𝙴𝙻𝙸𝙽𝙶𝚂 ›› : [𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴](https://t.me/DHIMAN_FEELINGS)
+┣★ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 » : [𝙳𝙷𝙸𝙼𝙰𝙽 𝙳𝙸𝚂𝙲𝚄𝚂](https://t.me/CHATTING_GRUP001)
 ┗━━━━━━━━━━━━━━━━━━━┛
 
-💞 Cʟɪᴄᴋ Oɴ Dᴇᴘʟᴏʏ Bᴜᴛᴛᴏɴ Tᴏ Mᴀᴋᴇ
-Yᴏᴜʀ Oᴡɴ » Gᴇɴɪᴜs Usᴇʀ Bᴏᴛ.
+🌸 𝙳𝙼 𝚃𝙾 𝙼𝚈 𝙻𝙴𝙶𝙴𝙽𝙳 𝙾𝚆𝙽𝙴𝚁 𝚃𝙾 𝙱𝚄𝚈 𝚃𝙷𝙸𝚂 "𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃" 𝚁𝙴𝙿𝙾 🫰🏻❤️‍🩹
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Dᴇᴘʟᴏʏ Gᴇɴɪᴜs UsᴇʀBᴏᴛ ✨", url=f"https://github.com/GeniusBoi/Genius-UserBot")
+                        "🍷 𝙳𝙷𝙸𝙼𝙰𝙽 𝚡𝙳 🖤", url=f"https://t.me/i_dxlvir")
                 ]
                 
            ]
@@ -151,11 +149,11 @@ async def help_parser(name, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
-        """**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :
-Gᴇɴɪᴜs UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
+        """**🥀 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄 𝙾𝙵 :
+𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁 𝙱𝙾𝚃 𝚅𝙴𝚁 : 2.0 🔥...
 
-💞 Jᴜsᴛ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Iɴʟɪɴᴇ
-Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
+🌼 𝙹𝚄𝚂𝚃 𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝙸𝙽𝙻𝙸𝙽𝙴
+𝚃𝙾 𝙶𝙴𝚃 𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 ✨...**
 """.format(
             first_name=name
         ),
@@ -180,17 +178,17 @@ async def help_button(client, query):
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
     create_match = re.match(r"help_create", query.data)
-    top_text = f"""**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :
-Gᴇɴɪᴜs UsᴇʀBᴏᴛ Vᴇʀ : `2.0` 🔥...
+    top_text = f"""**🥀 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄 𝙾𝙵 :
+𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁 𝙱𝙾𝚃 𝚅𝙴𝚁 : 2.0 🔥...
 
-💞 Jᴜsᴛ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Iɴʟɪɴᴇ
-Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
+🌼 𝙹𝚄𝚂𝚃 𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝙸𝙽𝙻𝙸𝙽𝙴
+𝚃𝙾 𝙶𝙴𝚃 𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 ✨...**
  """
     if mod_match:
         module = mod_match.group(1)
         text = (
             "{} **{}**:\n".format(
-                "**🥀 Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴇɴᴜ Oғ :** ", HELPABLE[module].__MODULE__
+                "**❤️‍🩹 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄 𝙾𝙵 :** ", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
         )
@@ -198,10 +196,10 @@ Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ ʙᴀᴄᴋ", callback_data="help_back"
+                        text="↪️ 𝙱𝙰𝙲𝙺", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        text="🔄 ᴄʟᴏsᴇ", callback_data="close"
+                        text="🔄 𝙲𝙻𝙾𝚂𝙴", callback_data="close"
                     ),
                 ],
             ]
