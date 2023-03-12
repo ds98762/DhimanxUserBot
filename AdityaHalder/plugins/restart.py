@@ -12,10 +12,10 @@ from AdityaHalder.utilities.misc import SUDOERS
 
 @Client.on_message(command(["restart", "reboot"]) & filters.me)
 async def restart(client, m: Message):
-    reply = await m.edit("**🔁 Rᴇsᴛᴀʀᴛɪɴɢ 🔥 ...**")
+    reply = await m.edit("**🔁 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 🔥 ...**")
     
     await reply.edit(
-        "🥀 SᴜᴄᴄᴇssFᴜʟʟʏ RᴇSᴛᴀʀᴛᴇᴅ\nGᴇɴɪᴜs シ︎ UsᴇʀBᴏᴛ 🔥 ...\n\n💕 Pʟᴇᴀsᴇ Wᴀɪᴛ 1-2 MɪN Fᴏʀ\nLᴏᴀᴅ Usᴇʀ Pʟᴜɢɪɴs ✨ ...</b>"
+        "🥀 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳\n𝙳𝙷𝙸𝙼𝙰𝙽 シ︎ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 🔥 ...\n\n💕 Pʟᴇᴀsᴇ Wᴀɪᴛ 1-2 MɪN Fᴏʀ\nLᴏᴀᴅ Usᴇʀ Pʟᴜɢɪɴs ✨ ...</b>"
     )
     os.system(f"kill -9 {os.getpid()} && python3 -m modules")
 
@@ -23,8 +23,8 @@ async def restart(client, m: Message):
 
 
 
-__MODULE__ = "Rᴇsᴛᴀʀᴛ"
+__MODULE__ = "𝚁𝙴𝚂𝚃𝙰𝚁𝚃"
 __HELP__ = f"""
-`.restart` **- Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ Tᴏ Rᴇsᴛᴀʀᴛ Gᴇɴɪᴜs UsᴇʀBᴏᴛ**
+`.restart` **- 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙼𝙳 𝚃𝙾 𝚁𝙴𝚂𝚃𝙰𝚁𝚃 𝙳𝙷𝙸𝙼𝙰𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 **
 
 """
